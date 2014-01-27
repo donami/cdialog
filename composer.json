@@ -1,13 +1,13 @@
 {
-    "name": "phpmvc/comments",    
+    "name": "phpmvc/comment",    
     "type": "library",
-    "description": "Example for comments classes to begin with",
+    "description": "Various base classes for comments management",
     "keywords": ["comments", "education"],
     "homepage": "http://dbwebb.se",
     "license": "MIT",
     "authors": [
         {
-            "name": "Mkael Roos",
+            "name": "Mikael Roos",
             "email": "me@mikaelroos.se",
             "homepage": "http://mikaelroos.se",
             "role": "Developer"
