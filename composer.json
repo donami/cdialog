@@ -1,7 +1,14 @@
 {
-    "name": "phpmvc/comments",
-    
+    "name": "phpmvc/comments",    
+    "type": "library",
+    "description": "Example for comments classes to begin with",
+    "keywords": ["comments"],
+    "homepage": "http://dbwebb.se",
+    "license": "MIT",
+    "authors": [
+        {"name": "Mikael Roos", "email": "me@mikaelroos.se"}
+    ],
     "require": {
-        "php": ">=5.4",
-    },
+        "php": ">=5.4"
+    }
 }
