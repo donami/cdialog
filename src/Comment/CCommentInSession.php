@@ -3,7 +3,7 @@
  * To attach comments-flow to a page or some content.
  *
  */
-namespace Mos\Comment;
+namespace Phpmvc\Comment;
 
 class CCommentInSession {
 

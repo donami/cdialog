@@ -32,7 +32,7 @@ $output = null;
 
 
 // Prepare and init the comments-class
-$comments = new Mos\Comment\CCommentInSession (array(
+$comments = new Phpmvc\Comment\CCommentInSession (array(
   'key'  => 'page-with-comments',
 ));
 
