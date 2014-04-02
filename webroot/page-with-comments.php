@@ -24,14 +24,14 @@ $app = new \Anax\Kernel\CAnax($di);
 $app->router->add('', function() use ($app) {
 
     $app->theme->setTitle("Welcome to Anax Guestbook");
-    $app->views->add('guestbook/index');
+    $app->views->add('comment/index');
 
     $app->dispatcher->forward([
         'controller' => 'comment',
         'action'     => 'view',
     ]);
 
-    $app->views->add('guestbook/form', [
+    $app->views->add('comment/form', [
         'mail'      => null,
         'web'       => null,
         'name'      => null,
