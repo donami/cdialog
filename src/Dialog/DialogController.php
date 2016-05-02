@@ -1,6 +1,6 @@
 <?php
 
-namespace Donami\CDialog;
+namespace donami\CDialog;
 
 /**
  * To attach comments-flow to a page or some content.
