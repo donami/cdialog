@@ -1,12 +1,12 @@
 <?php
 
-namespace Phpmvc\Comment;
+namespace Donami\CDialog;
 
 /**
  * To attach comments-flow to a page or some content.
  *
  */
-class CommentController implements \Anax\DI\IInjectionAware
+class DialogController implements \Anax\DI\IInjectionAware
 {
     use \Anax\DI\TInjectable;
 
@@ -39,7 +39,7 @@ class CommentController implements \Anax\DI\IInjectionAware
     public function addAction()
     {
         $isPosted = $this->request->getPost('doCreate');
-        
+
         if (!$isPosted) {
             $this->response->redirect($this->request->getPost('redirect'));
         }
@@ -71,7 +71,7 @@ class CommentController implements \Anax\DI\IInjectionAware
     public function removeAllAction()
     {
         $isPosted = $this->request->getPost('doRemoveAll');
-        
+
         if (!$isPosted) {
             $this->response->redirect($this->request->getPost('redirect'));
         }

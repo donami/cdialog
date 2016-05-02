@@ -1,15 +1,15 @@
 {
-    "name": "phpmvc/comment",    
+    "name": "donami/cdialog",
     "type": "library",
-    "description": "Various base classes for comments management",
-    "keywords": ["comments", "education"],
-    "homepage": "http://dbwebb.se",
+    "description": "Various base classes for dialog management",
+    "keywords": ["dialog", "education"],
+    "homepage": "http://bth.se",
     "license": "MIT",
     "authors": [
         {
-            "name": "Mikael Roos",
-            "email": "me@mikaelroos.se",
-            "homepage": "http://mikaelroos.se",
+            "name": "Markus Hederström",
+            "email": "d0namiz@gmail.com",
+            "homepage": "http://bth.se",
             "role": "Developer"
         }
     ],
