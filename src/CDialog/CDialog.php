@@ -6,7 +6,7 @@ namespace donami\CDialog;
  * To attach comments-flow to a page or some content.
  *
  */
-class DialogController implements \Anax\DI\IInjectionAware
+class CDialog implements \Anax\DI\IInjectionAware
 {
     use \Anax\DI\TInjectable;
 
