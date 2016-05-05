@@ -13,12 +13,15 @@ composer require donami/ctable
 
 Use an array to create the table:
 ```php
+
+$di->set('HTMLTable', 'donami\CTable\CTable');
+
 $data = array(
   array('First', 'Second', 'Third'),
   array('Fourth', 'Fifth', 'Sixth')
 )
 
-echo generate($data);
+echo $app->HTMLTable->generate($data);
 ```
 
 Will output: 
@@ -40,8 +43,11 @@ Will output:
 This is useful when looping through data
 
 ```php
-create_row(array('First', 'Second', 'Third'));
-create_row(array('Fourth', 'Fifth', 'Sixth'));
+$di->set('HTMLTable', 'donami\CTable\CTable');
+
+$app->HTMLTable->create_row(array('First', 'Second', 'Third'));
+$app->HTMLTable->create_row(array('Fourth', 'Fifth', 'Sixth'));
+echo $app->HTMLTable->generate();
 ```
 
 ### Defining tags:
@@ -50,7 +56,7 @@ Used for customizing the style of the table.
 Example: Set the background of the table to purple
 
 ```php
-defineTags(array('table_start' => '<table style="background: purple">'));
+$app->HTMLTable->defineTags(array('table_start' => '<table style="background: purple">'));
 ```
 
 
