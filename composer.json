@@ -1,15 +1,15 @@
 {
-    "name": "donami/cdialog",
+    "name": "donami/ctable",
     "type": "library",
-    "description": "Various base classes for dialog management",
-    "keywords": ["dialog", "education"],
+    "description": "Table management",
+    "keywords": ["table", "education"],
     "homepage": "http://bth.se",
     "license": "MIT",
     "authors": [
         {
             "name": "Markus Hederström",
             "email": "d0namiz@gmail.com",
-            "homepage": "http://bth.se",
+            "homepage": "http://www.bth.se",
             "role": "Developer"
         }
     ],
