@@ -19,7 +19,7 @@ $di->set('HTMLTable', 'donami\CTable\CTable');
 $data = array(
   array('First', 'Second', 'Third'),
   array('Fourth', 'Fifth', 'Sixth')
-)
+);
 
 echo $app->HTMLTable->generate($data);
 ```
