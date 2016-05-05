@@ -19,8 +19,10 @@ $data = array(
 )
 
 echo generate($data);
+```
 
-/* Output:  
+Will output: 
+```html
 <table>
   <tr>
     <td>First</td>
@@ -33,7 +35,6 @@ echo generate($data);
     <td>Sixth</td>
   </tr>
 </table>
-*/
 ```
 ### One by one
 This is useful when looping through data
