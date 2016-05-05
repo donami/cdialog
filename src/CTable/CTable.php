@@ -1,32 +1,8 @@
 <?php
-
 namespace donami\CTable;
 
 /**
- * Create a HTML table from array
- *
- * Usage:
- *
- * -- Using one array for the data --
- * $data = array(
- * 	array('First', 'Second', 'Third'),
- * 	array('Fourth', 'Fifth', 'Sixth')
- * )
- *
- * generate($data) => Will generate a HTML Table which consists of two rows with three columns
- *
- *
- * -- One by one --
- * This is good for when looping through data
- *
- * create_row(array('First', 'Second', 'Third'));
- * create_row(array('Fourth', 'Fifth', 'Sixth'));
- *
- * -- Defining tags --
- *
- * Example: Set the background of the table to purple
- *
- * defineTags(array('table_start' => '<table style="background: purple">'));
+ * Module for creating HTML Tables
  */
 class CTable implements \Anax\DI\IInjectionAware
 {
