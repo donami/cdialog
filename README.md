@@ -1,3 +1,7 @@
+[![Travis build status](https://travis-ci.org/donami/ctable.png?branch=master)](https://travis-ci.org/donami/ctable)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/donami/ctable/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/donami/ctable/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/donami/ctable/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/donami/ctable/?branch=master)
+
 # CTable - Table module for Anax
 
 CTable is a module for Anax used for creating HTML Tables in an easy manner.
